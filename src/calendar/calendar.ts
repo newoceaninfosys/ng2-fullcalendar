@@ -40,11 +40,15 @@ export class CalendarComponent implements OnInit,AfterViewInit,AfterContentCheck
   ngAfterViewChecked(){
   }
 
-  updateEvent(event) {
+  public updateEvent(event) {
     return $(this.element.nativeElement).fullCalendar('updateEvent', event);
   }
 
-  clientEvents(idOrFilter) {
+  public clientEvents(idOrFilter) {
     return $(this.element.nativeElement).fullCalendar('clientEvents', idOrFilter);
+  }
+  
+  public fullcalendar(cmd, data) {
+    $(this.element.nativeElement).fullCalendar(cmd, data);
   }
 }
