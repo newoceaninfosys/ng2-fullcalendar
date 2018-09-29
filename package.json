@@ -27,7 +27,7 @@
     "@angular/core": "^2.0.1",
     "@angular/forms": "^2.0.1",
     "@types/node": "^6.0.42",
-    "@types/jquery": "^2.0.34",
+    "@types/jquery": "^3.3.10",
     "@types/moment": "^2.11.29",
     "@types/fullcalendar": "3.8.0",
     "fullcalendar": "3.9.0",
