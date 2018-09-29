@@ -1,7 +1,8 @@
 import {Component, Input, OnInit, AfterViewInit, AfterContentChecked, AfterViewChecked, ElementRef} from '@angular/core';
 import * as $ from 'jquery';
 import 'fullcalendar';
-import {Options} from "fullcalendar";
+import 'fullcalendar-scheduler';
+import { OptionsInput } from 'fullcalendar';
 
 /*
   Generated class for the Calendar component.
@@ -15,7 +16,7 @@ import {Options} from "fullcalendar";
 })
 export class CalendarComponent implements OnInit,AfterViewInit,AfterContentChecked,AfterViewChecked{
 
-  @Input() options:Options;
+  @Input() options:OptionsInput;
   text: string;
   calendarInitiated:boolean;
 
