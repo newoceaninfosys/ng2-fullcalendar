@@ -26,11 +26,12 @@
     "@angular/common": "^2.0.1",
     "@angular/core": "^2.0.1",
     "@angular/forms": "^2.0.1",
-    "fullcalendar": "^3.0.1",
     "@types/node": "^6.0.42",
-    "@types/fullcalendar": "^2.7.35",
     "@types/jquery": "^2.0.34",
-    "@types/moment": "^2.11.29"
+    "@types/moment": "^2.11.29",
+    "@types/fullcalendar": "3.8.0",
+    "fullcalendar": "3.9.0",
+    "fullcalendar-scheduler": "1.9.4"
   },
   "devDependencies": {
     "@angular/compiler": "^2.0.1",
