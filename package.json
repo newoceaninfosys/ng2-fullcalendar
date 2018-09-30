@@ -1,6 +1,6 @@
 {
   "name": "ng2-fullcalendar",
-  "version": "1.0.22",
+  "version": "1.0.25",
   "description": "Angular2 component for FullCalendar",
   "main": "index.js",
   "scripts": {
