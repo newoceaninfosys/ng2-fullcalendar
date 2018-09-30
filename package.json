@@ -1,10 +1,9 @@
 {
-  "name": "ng2-fullcalendar",
+  "name": "@nois/ng2-fullcalendar",
   "version": "1.0.25",
   "description": "Angular2 component for FullCalendar",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nekken/ng2-fullcalendar.git"
