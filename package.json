@@ -4,7 +4,6 @@
   "description": "Angular2 component for FullCalendar",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node_modules/typescript/bin/tsc"
   },
   "repository": {
     "type": "git",
